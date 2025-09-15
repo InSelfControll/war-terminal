@@ -4,6 +4,13 @@ This guide shows how to add the **Warp Terminal** package to your NixOS configur
 You can apply this either in your system-wide `configuration.nix` or in your per-user **Home Manager** configuration.
 
 ---
+## 0. Clone the repo into a path you would like
+```bash
+chmod +X warp-latest.sh
+Run - warp-latest.sh
+./warp-latest.sh
+```
+This will take about a minute if your internet fast - downloading warp-terminal for updating HASHES in versions.json for completing the build and update locally.
 
 ## 1. Adding the Overlay
 
